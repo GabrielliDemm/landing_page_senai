@@ -234,7 +234,8 @@ address {
 .mapa {
     width: 350px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 20px 20px 8px rgba(255, 0, 0, 1);
 }
 
 .footer {
@@ -279,4 +280,13 @@ address {
     .menu.aberto {
         display: flex;
     }
+
+    .conteudo-banner h1 {font-size: 3.5rem;}
+    .subtitulo {font-size: 1.5rem;}
+    .titulo-secao {font-size: 2.5rem;}
+    .texto-sobre h3 {font-size: 2rem;}
+    .texto-sobre p {font-size: 1.1rem;}
+    .card h3 {font-size: 1.5rem;}
+    .card p {font-size: 1.3rem;}
+    .texto-endereco {font-size: 1.1rem;}
 }
